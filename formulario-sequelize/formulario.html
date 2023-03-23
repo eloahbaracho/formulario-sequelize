@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg text-bg-primary p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sistema Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Consultar</a>
+            </li>
+          </ul>
+    </nav>
+    <section>
+    <main class="container-fluid">
+      <p class="fs-5">Cadastrar - Agendamento de potenciais clientes</p>
+      <p class="fs-6">Sistema utilizado para agendamento de serviços</p>
+    </main>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nome</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Telefone</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Origem</label>
+        <select id="disabledSelect" class="form-select">
+          <option>Celular</option>
+        </select>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label" id="data">Data do contato:</label>
+          <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+      </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Observação</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+  </form>
+  </section>
+
+    <script type="text/javascript" src="javascript/bootstrap.js"></script>
+  </body>
+</html>
